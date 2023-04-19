@@ -29,3 +29,19 @@ if(temp == rev):
   print("Palindrome  number")
 else:
   print("Not palindrome number")
+
+3.Armstrong number
+
+#python
+
+num = int(input("Enter a number : "))
+temp = num
+sum = 0
+while(num != 0):
+  rem = num % 10
+  sum = sum + rem * rem * rem
+  num = num // 10
+if(sum == temp):
+  print("Armstrong  number")
+else:
+  print("Not Armstrong number")
