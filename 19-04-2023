@@ -50,6 +50,13 @@ else:
 
 #python
 
+side_of_square = int(input("Enter the length of side of square : "))
+print("The area of square is : ", side_of_square * side_of_square)
+length_of_rectangle = int(input("Enter the length of rectangle : "))
+breadth_of_rectangle = int(input("Enter the breadth of rectangle : "))
+print("The area of rectangle is : ", length_of_rectangle * breadth_of_rectangle)
+base_of_triangle = int(input("Enter the length of base of triangle : "))
+height_of_triangle = int(input("E"))
 
 5.To swap three numbers in ascending order
 #python
