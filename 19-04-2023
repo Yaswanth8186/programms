@@ -45,3 +45,39 @@ if(sum == temp):
   print("Armstrong  number")
 else:
   print("Not Armstrong number")
+  
+4.To find area of triangle, rectangle and square
+
+#python
+
+
+5.To swap three numbers in ascending order
+#python
+
+first = int(input("Enter first number : "))
+second = int(input("Enter second number : "))
+third = int(input("Enter third number : "))
+if(first > second and first > third):
+    print("hi")
+    temp = third
+    third = first
+    if(temp > second):
+        first = second
+        second = temp
+    else:
+        first = temp
+elif(second > first and second > third):
+    print("hello")
+    temp = third
+    third = second
+    if(temp > first):
+        second = temp
+    else:
+        second = first
+        first = temp
+else:
+    if(first > second):
+        temp = first
+        first = second
+        second = temp
+print(first,second,third)
