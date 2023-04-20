@@ -56,7 +56,8 @@ length_of_rectangle = int(input("Enter the length of rectangle : "))
 breadth_of_rectangle = int(input("Enter the breadth of rectangle : "))
 print("The area of rectangle is : ", length_of_rectangle * breadth_of_rectangle)
 base_of_triangle = int(input("Enter the length of base of triangle : "))
-height_of_triangle = int(input("E"))
+height_of_triangle = int(input("Enter the length of height of triangle : "))
+print("The area of triangle is : ", 0.5 * base_of_triangle * height_of_triangle)
 
 5.To swap three numbers in ascending order
 #python
